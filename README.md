@@ -6,5 +6,5 @@
 "# Tema escolhido"
 "# Fazer um aplicativo web chamado Countdown Timer para fornecer uma"
 "# exibição decrescente continuamente dos meses, dias, horas, minutos e segundos"
-"# de um eventoqualquer inserido pelo usuário. Pode permitir o cadastramento de"
+"# de um evento qualquer inserido pelo usuário. Pode permitir o cadastramento de"
 "# até 10 "eventos." 
