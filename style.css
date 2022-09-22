@@ -1,1 +1,37 @@
-#logo{font-family: DejaVu Sans Mono, monospace;border:  2px black;}
+body{
+    background-color: black;
+}
+
+.logo{
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-texto{
+    font-family: DejaVu Sans Mono, monospace;
+    font-size: 80px;
+    text-shadow:0px 5px 20px #b2b2b2;
+}
+
+#logo-texto1{
+    color: rgb(203, 1, 1);
+}
+
+#logo-texto2{
+    color: rgb(237, 237, 237);
+}
+
+.principal{
+    background-color: #797676;
+}
+
+.eventos{
+    background-color: #797676;
+    border-radius: 50px;
+    display: flex;    
+    justify-content: flex-start; 
+    align-items: stretch; 
+    /* flex-flow: column; */ 
+    flex-direction: column;  
+}
