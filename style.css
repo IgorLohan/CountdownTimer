@@ -43,19 +43,19 @@ h1{
 }
 
 /* MOSTRA CONTAGEM REGRESSIVA */
-#clockdiv{
+#relogio{
     color: #fff;
     font-weight: 100;
     text-align: center;
     font-size: 30px;
 }
-#clockdiv > div{
+#relogio > div{
     padding: 10px;
     border-radius: 3px;
     background: #000000;
     display: inline-block;
 }
-#clockdiv div > span{
+#relogio div > span{
     padding: 15px;
     border-radius: 3px;
     background: #797676;
