@@ -8,3 +8,5 @@
 "# exibição decrescente continuamente dos meses, dias, horas, minutos e segundos"
 "# de um evento qualquer inserido pelo usuário. Pode permitir o cadastramento de"
 "# até 10 "eventos." 
+
+"# Link online: https://igorlohan.github.io/CountdownTimer/"

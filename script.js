@@ -27,5 +27,45 @@ function contar() {
   }, 1000);
 }
 
-var x = true;
+function addNovoEvento() {
+  var tabela = document.getElementById("tabela");
+  var linha = tabela.insertRow();
+  var celula = linha.insertCell();
+  celula.innerHTML = `
+  <div class="eventos">
+    <div>
+      Evento: <input type="text" id="nomeEvento" placeholder="nome evento"> 
+      <input type="text" id="data" placeholder="02/10/2022"> 
+      <button onclick="contar()">+</button>
+    </div>                       
+
+    <div id="relogio">
+      <div>
+        <span class="meses" id="mes"></span>
+        <div class="smalltext">Mês</div>
+      </div>
+
+      <div>
+        <span class="days" id="dias"></span>
+        <div class="smalltext">Dias</div>
+      </div>
+
+      <div>
+        <span class="hours" id="horas"></span>
+        <div class="smalltext">Horas</div>
+      </div>
+
+      <div>
+        <span class="minutes" id="minutos"></span>
+        <div class="smalltext">Minutos</div>
+      </div>
+
+      <div>
+        <span class="seconds" id="segundos"></span>
+        <div class="smalltext">Segundos</div>
+      </div>
+    </div>
+  </div>`;
+
+}
 
