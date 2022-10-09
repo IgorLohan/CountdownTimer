@@ -24,6 +24,7 @@ function contar() {
       document.getElementById("clockdiv").innerHTML = "Seu evento começou!";
       clearInterval(intervalo);
     }
+  
   }, 1000);
 }
 
