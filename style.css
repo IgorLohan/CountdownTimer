@@ -101,7 +101,7 @@ smalltext{
 }
 
 /* Nome Evento */
-#nomeEventoTitulo{
+.nomeEventoTitulo{
     text-align: center;
     color: #000000;
 }

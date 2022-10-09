@@ -13,14 +13,15 @@
     <div class="logo">
       <h1 class="logo-texto"><span id="logo-texto1">Count</span><span id="logo-texto2">down</span></h1>
       <div>
-        <div class="btn" onclick="addNovoEvento()">
+        <div id="btn-add-evento" class="btn" onclick="addNovoEvento()">
           <span>+</span>
         </div>            
       </div>
     </div>
   </header>
 
-  <main>    
+  <main>
+    <input type="number" name="total-eventos" id="total-eventos" value="0" hidden>
     <table id="tabela">
       <tr id="meuevento">
         <!-- Adiciona inputs para o evento -->
